@@ -9,7 +9,8 @@ how deep the rabbit-hole goes.** **Morpheus**
 
 ## Apps
 
-- [checkers.wat](ch02/checkers.wat), raw WebAssembly module
+- [checkers.wat](ch02/checkers.wat), WebAssembly Checkers module
+- [checkers.rs](ch03/src/checkers.rs), Rust Checkers module
 - [Rogue] [WebAssembly](ch04) with [Rot.js]
 
 ## Setup
