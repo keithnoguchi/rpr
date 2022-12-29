@@ -107,11 +107,11 @@ impl Engine {
     }
 
     fn valid_jump(&self, _piece: &Piece, _from: Coordinate, to: Coordinate) -> bool {
-        !self.piece(to).is_some()
+        self.piece(to).is_none()
     }
 
     fn valid_move(&self, to: Coordinate) -> bool {
-        !self.piece(to).is_some()
+        self.piece(to).is_none()
     }
 
     fn initialize(mut self) -> Self {
