@@ -24,6 +24,18 @@ Please refer the [wabbit] github for building from scratch.
 $ sudo pacman -S wabt
 ```
 
+WebAssembly targe:
+
+```
+$ rustup target add wasm32-unknown-unknown
+```
+
+and wasm-bindgen:
+
+```
+$ cargo install wasm-bindgen-cli
+```
+
 [webassembly]: https://webassembly.github.io/spec/core/intro/index.html
 [programming webassembly with rust]: https://pragprog.com/titles/khrust/programming-webassembly-with-rust/
 [kevin hoffman]: https://twitter.com/KevinHoffman
